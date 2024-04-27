@@ -13,6 +13,7 @@
 
 </head>
 
+
 <!-- Il contenuto visibile -->
 
 <body>
@@ -20,34 +21,40 @@
     <!-- Header - l'intestazione di sezione/contenitore  -->
     <!-- LOGO -->
     <header>
-
+        <img src="img/Toboolist-logo.jpg" alt="LOGO">
     </header>
 
-    <main>
-        <!-- Buttons -->
-        <header>
+    <main id="main">
 
-        </header>
+        <!-- Buttons -->
+        <div id="button">
+            <button class="bTask bClass">Add Task</button>
+            <button class="bSection bClass">Add Section</button>
+        </div>
 
         <!-- Section New-->
-        <div>
+        <div id="Task" class="todo">
 
             <!-- Title & Entity Code -->
-            <h4></h4>
+            <h1 class="white-error"> &#9662; New Task</h1>
 
             <ul>
                 <li>
-
+                    <p class="text white-error">
+                        <span class="icon">&check;</span>
+                        Quarterly Newsletter
+                        <span class="tag">Editorial</span>
+                    </p>
                 </li>
             </ul>
 
         </div>
 
         <!-- Section Today-->
-        <div></div>
+        <div id="Today--"></div>
 
         <!-- Section Upcoming-->
-        <div></div>
+        <div id="Upcoming"></div>
 
     </main>
 

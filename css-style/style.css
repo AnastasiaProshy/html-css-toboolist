@@ -4,4 +4,106 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    text-align: left;
+    background-color: #F6F8F9;
+    color: #434851;
+}
+
+/* ************************************************** */
+/* LOGO STYLE */
+header {
+    background-color: white;
+    padding: 7px 0 7px 10px;
+}
+
+header img {
+    height: 35px;
+}
+
+/* ************************************************** */
+#button {
+    margin: 0 0 5px;
+    background-color: white;
+    border-bottom: 1px solid #F6F8F9;
+}
+
+.bClass {
+    background-color: #14AAF5;
+    padding: 5px 7px 4px 7px;
+    color: black;
+    text-align: center;
+    font-size: 7px;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+.bSection {
+    margin: 7px 0 7px;
+    background-color: transparent;
+    border-color: #C4CBD0;
+}
+
+
+/* ************************************************** */
+
+.todo ul {
+    list-style-type: none;
+    margin: auto;
+    background-color: white;
+}
+
+.icon {
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+    background-color: white;
+    color: #2CC6AB;
+    border: 0.8px solid #2CC6AB;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 7px;
+    line-height: 13px;
+
+}
+
+/* ************************************************** */
+
+#main {
+    height: 370px;
+    max-width: 80%;
+    margin: 2.7rem auto;
+    background-color: white;
+    border: 2px;
+    border-radius: 10px;
+    padding: 7px 30px;
+}
+
+
+h1 {
+    font-size: 12px;
+    padding: 0 0 4px 4px;
+}
+
+.white-error {
+    margin: auto;
+    background-color: white;
+}
+
+.tag {
+    background-color: #09A9ED;
+    padding: 3px 6px 3px 6px;
+    color: white;
+    text-align: center;
+    font-size: 5px;
+    border-radius: 15px;
+}
+
+.text {
+    padding-left: 3px;
+}
+
+.error {
+    border-color: red;
+    color: red;
 }
