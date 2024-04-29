@@ -1,7 +1,8 @@
-/* RESET */
+/* RESET - sovrascrive le proprietà di default del browser */
 * {
     margin: 0;
     padding: 0;
+    /* BBOX - va cambiare il modo in cui elementi calcolano le dimensioni, vanno inglobare quello che il bordo e quello che il padding, non il margine che sia un elemento esterno */
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 9px;
@@ -22,7 +23,7 @@ header img {
 }
 
 /* ************************************************** */
-#button {
+button {
     margin: 0 0 0 5px;
     background-color: white;
     border-bottom: 1px solid #F6F8F9;
@@ -103,6 +104,7 @@ h1 {
 .text {
     padding: 4px 0 5px 3px;
 }
+
 
 /* COLORS */
 
